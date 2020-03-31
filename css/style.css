@@ -1,7 +1,310 @@
+a:hover,
+a:focus{
+    outline: none;
+    text-decoration: none;
+}
 /**1 first-blocks-and-form**/
 
 
 /**2 body-process**/
+.body-process,
+.obesity{
+    margin: 120px 0;
+}
+.headline-bl h2{
+    font-family: Lifehack Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+    color: #2B2B2B;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+.process-bl{
+    position: relative;
+    justify-content: space-between;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 75px;
+}
+.process-wrap{
+    width: 26%;
+    margin: 0 10px;
+}
+.process-main{
+    height: 100%;
+    position: relative;
+}
+.process-content {
+    height: 100%;
+    padding: 15px;
+}
+.process-content,
+.obesity-content{
+    height: 100%;
+    z-index: 10;
+    position: relative;
+    background: #FFFFFF;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+.process-bg{
+    z-index: 5;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #B4BBCC;
+    border-radius: 10px;
+    transform: rotate(-6.47deg);
+}
+.process-img{
+    text-align: center;
+}
+.process-img img{
+    height: 100px;
+}
+.process-head h5,
+.obesity-content h5{
+    font-family: Avenir Next Cyr;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #2B2B2B;
+    text-align: center;
+}
+.process-info {
+    margin-bottom: 54px;
+}
+.process-info p{
+    margin-bottom: 65px;
+    text-align: start;
+    font-family: Avenir Next Cyr;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2B2B2B;
+}
+.decision-m{
+    display: flex;
+    justify-content: space-between;
+}
+.drug-wrap{
+    margin-left: 35px;
+}
+.decision-wrap{
+    height: 100%;
+    width: 300px;
+    display: block;
+    background-image: url("../img/green-bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.decision-wrap img{
+    width: 100%;
+}
+.drug-wrap h5{
+    text-transform: uppercase;
+    font-family: Lifehack Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 40px;
+    color: #00680A;
+}
+.drug-wrap p{
+    text-transform: uppercase;
+    font-family: Lifehack Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #2B2B2B;
+    margin-bottom: 40px;
+}
+.product-buy{
+    display: inline-block;
+    border: 5px solid #78E383;
+    box-sizing: border-box;
+    box-shadow: inset 0px 3px 6px 1px rgb(255, 255, 255), inset 0px 5px 6px 2px rgba(0, 0, 0, 0.24), 0px 3px 6px 1px rgb(255, 255, 255), 0px 5px 6px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 20px;
+    padding: 20px 75px;
+    color: #2B2B2B;
+    font-family: Avenir Next Cyr;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 17px;
+}
+.product-buy:hover{
+    color: #FBFBFB;
+    border: 0;
+    padding: 25px 80px;
+    background: linear-gradient(270deg, #019F0C 3.85%, #94E399 94.23%), #78E383;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 1199px) {
+    .process-wrap {
+        width: 24%;
+    }
+    .drug-wrap{
+        margin-left: 15px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .process-wrap {
+        width: 40%;
+        margin: 0 10px 45px;
+    }
+    .process-bl {
+        flex-wrap: wrap;
+    }
+    .img-bottom {
+        bottom: -30px!important;
+    }
+}
+@media screen and (max-width: 767px) {
+    .process-wrap {
+        width: 41%;
+        margin: 0 10px 50px;
+    }
+    .drug-wrap h5 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .drug-wrap p {
+        font-size: 16px;
+        line-height: 15px;
+    }
+    .decision-wrap{
+        width: 245px;
+    }
+    .process-bl {
+        margin-bottom: 45px;
+    }
+    .img-bottom {
+        bottom: -25px!important;
+    }
+    .obesity-head h5 {
+        padding: 15px 15px;
+    }
+    .img-block {
+        height: 115px!important;
+    }
+
+}
+@media screen and (max-width: 540px) {
+    .process-wrap {
+        width: 44%;
+        margin: 0 5px 40px;
+    }
+    .process-img img {
+        height: 75px;
+    }
+    .process-head h5,
+    .obesity-head h5{
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .process-info p,
+    .obesity-info p{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .process-content {
+        padding: 10px;
+    }
+    .decision-wrap{
+        width: 200px;
+    }
+    .img-block {
+        height: 100px!important;
+    }
+    .obesity-head h5 {
+        padding: 15px 15px!important;
+    }
+
+}
+@media screen and (max-width: 420px) {
+    .process-wrap {
+        width: 47%;
+        margin: 0 0 40px;
+    }
+    .process-img img {
+        width: 95%;
+        /* display: block; */
+        height: 75px;
+    }
+    .process-head h5,
+    .obesity-head h5{
+        font-size: 13px!important;
+        line-height: 16px!important;
+    }
+    .process-info p,
+    .obesity-info p{
+        font-size: 12px!important;
+        line-height: 16px!important;
+    }
+    .process-info p {
+        margin-bottom: 45px;
+    }
+    .process-info {
+        margin-bottom: 0;
+    }
+    .headline-bl h2 {
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .decision-wrap{
+        width: 165px;
+    }
+    .drug-wrap h5 {
+        font-size: 19px;
+        line-height: 21px;
+    }
+    .drug-wrap p {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .obesity-head h5 {
+        padding: 10px 15px!important;
+    }
+
+}
+@media screen and (max-width: 390px) {
+    .img-block {
+        height: 85px!important;
+    }
+}
+@media screen and (max-width: 360px) {
+    .process-head h5 {
+        font-size: 11px!important;
+        line-height: 14px!important;
+    }
+    .process-info p{
+        font-size: 10px!important;
+        line-height: 14px!important;
+    }
+    .decision-wrap {
+        width: 138px;
+    }
+    .drug-wrap h5 {
+        font-size: 17px;
+        line-height: 19px;
+    }
+    .drug-wrap p {
+        font-size: 11px;
+        line-height: 13px;
+    }
+}
+
 
 
 /**3 structure**/
@@ -14,6 +317,40 @@
 
 
 /**6 obesity**/
+.obesity-head h5{
+    padding: 30px 15px;
+}
+.obesity-info p{
+    padding: 0 15px;
+    margin-bottom: 10px;
+    text-align: start;
+    font-family: Avenir Next Cyr;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2B2B2B;
+}
+.img-bl{
+   position: relative;
+    overflow: hidden;
+}
+.img-ab{
+    position: absolute;
+    bottom: 0;
+}
+.img-block{
+    position: relative;
+    height: 130px;
+}
+.img-bottom{
+    position: absolute;
+    bottom: -45px;
+}
+.img-bottom img,
+.img-ab img{
+    width: 100%;
+}
 
 
 /**7 doctor-opinions**/
