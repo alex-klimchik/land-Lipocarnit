@@ -1,31 +1,662 @@
 /**1 first-blocks-and-form**/
 
+.first-blocks-and-form {
+    min-height: 100vh;
+    max-height: 849px;
+    background: url('../img/header-back.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 135px 0;
+}
+
+.first-blocks-and-form h2 {
+    font-family: Lifehack Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 60px;
+    color: #FBFBFB;
+    max-width: 560px;
+    margin-bottom: 50px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-content>ul {
+    font-family: "AvenirNextW04-Regular";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FBFBFB;
+    list-style: none;
+    padding-left: 100px;
+}
+
+.header-content>ul li {
+    margin-bottom: 20px;
+}
+
+.header-content>ul li span {
+    position: relative;
+    margin-right: 15px;
+}
+
+.header-content>ul li span img:last-child {
+    position: absolute;
+    top: 1px;
+    left: 8px;
+}
+
+.header-form form {
+    max-width: 365px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background: linear-gradient(180deg, #00680A 0%, #B4EABA 21%, #FFFFFF 30%), #C4C4C4;
+    border-radius: 20px;
+    box-shadow: 0px 6px 7px 3px #0000006e;
+    margin-bottom: 50px;
+}
+
+.header-form .form-product {
+    position: absolute;
+    right: 20px;
+    top: 5px;
+}
+
+.header-form .form-mark {
+    background: url('../img/form-circle.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -65px;
+    right: -110px;
+    width: 130px;
+    height: 130px;
+    padding-top: 35px;
+    text-align: center;
+}
+
+.header-form .form-mark p:first-child {
+    font-weight: 750;
+    font-size: 27px;
+    line-height: 44px;
+    margin: 0;
+    font-family: "AvenirNextW06-Bold";
+}
+
+.header-form .form-mark p:last-child {
+    margin: 0;
+    font-family: "AvenirNextW06-Bold";
+    color: #FF1616;
+    text-decoration-line: line-through;
+}
+
+.header-form .form-title {
+    font-family: Lifehack Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FBFBFB;
+    padding: 10px 70px 0;
+}
+
+.header-form .form-clock {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.header-form .form-clock>div {
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #868686;
+}
+
+.header-form .form-clock>span {
+    color: #868686;
+    padding: 0 10px;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 43px;
+    font-family: Lifehack Sans;
+}
+
+.header-form .form-clock>div span:first-child {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    font-family: "AvenirNextW06-Bold";
+    font-size: 30px;
+    line-height: 37px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 7px;
+    border-radius: 5px;
+}
+
+.header-form form>input {
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 15px 25px;
+    max-width: 294px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.header-form form>input::placeholder {
+    font-family: "AvenirNextW04-Regular";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 22px;
+    color: #BDBDBD;
+    border: 1px solid rgba(255, 255, 255, 0.9);
+}
+
+.header-form form>input[type="submit"] {
+    max-width: 260px;
+    width: 100%;
+    height: 55px;
+    margin: 0 auto;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    font-family: "AvenirNextW06-Bold";
+    font-weight: 750;
+    font-size: 24px;
+    line-height: 14px;
+    color: #2B2B2B;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    border: 5px solid #78E383;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    transition: .25s ease-out;
+    box-shadow: inset 0px 3px 6px 1px rgb(255, 255, 255), inset 0px 5px 6px 2px rgba(0, 0, 0, 0.24), 0px 3px 6px 1px rgb(255, 255, 255), 0px 5px 6px 2px rgba(0, 0, 0, 0.24);
+}
+
+.header-form form>input[type="submit"]:hover {
+    background: linear-gradient(270deg, #019F0C 3.85%, #94E399 94.23%), #78E383;
+    color: #FBFBFB;
+    border: 0;
+    box-shadow: 0px 5px 6px 2px rgba(0, 0, 0, 0.24);
+}
+
+.form-modal, .mob-product, .mob-woman-back {
+    display: none;
+}
+
+@media (min-width: 1450px) {
+    .first-blocks-and-form {
+        min-height: 100vh;
+        background-size: cover;
+        background-position: bottom;
+    }
+}
+
+@media (max-width: 1400px) {
+    .first-blocks-and-form {
+        padding: 50px 50px 0;
+        background-size: cover;
+        background-position: bottom;
+    }
+    .header-content>ul {
+        padding-left: 50px;
+    }
+    .header-form {
+        margin-right: 20px;
+    }
+    .header-form form {
+        max-width: 320px;
+        margin-bottom: 130px;
+    }
+    .header-form .form-title {
+        font-size: 28px;
+        line-height: 30px;
+        padding: 10px 82px 0 38px;
+    }
+    .header-form .form-product {
+        right: 40px;
+    }
+    .header-form .form-mark {
+        height: 100px;
+        width: 100px;
+        right: -60px;
+    }
+    .header-form .form-mark p:first-child {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .header-form .form-mark p:last-child {
+        font-size: 14px;
+    }
+    .header-form .form-clock>div span:first-child {
+        width: 40px;
+        height: 40px;
+        font-size: 24px;
+    }
+    .header-form form>input {
+        padding: 8px 15px;
+        max-width: 275px;
+    }
+    .header-form form>input[type="submit"] {
+        max-width: 220px;
+        margin-top: 15px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .first-blocks-and-form {
+        min-height: unset;
+        padding: 30px 50px 0 20px;
+    }
+}
+
+@media (max-width: 900px) {
+    .first-blocks-and-form {
+        background-image: url('../img/mom-header-back.png');
+        z-index: 0;
+        position: relative;
+    }
+    .first-blocks-and-form:before {
+        content: ' ';
+        display: block;
+        clear: both;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        background: rgba(0, 0, 0, 0.4);
+    }
+    .header-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-form {
+        display: none;
+    }
+    .first-blocks-and-form {
+        padding: 30px 50px 20px 20px;
+    }
+    .form-modal {
+        display: block;
+        padding: 8px 15px;
+        border: 0;
+        max-width: 160px;
+        font-size: 12px;
+        width: 100%;
+        background: linear-gradient(270deg, #019F0C 3.85%, #94E399 94.23%), #78E383;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+        border-radius: 20px;
+        font-family: "AvenirNextW06-Bold";
+        font-weight: 750;
+        color: #FBFBFB;
+        margin-bottom: 50px;
+    }
+    .header-content>ul {
+        padding-left: 0;
+    }
+    .mob-product {
+        display: block;
+    }
+    .mob-woman-back {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    .mob-product {
+        position: relative;
+    }
+    .mob-product .form-mark {
+        background: url('../img/form-circle.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: -40px;
+        right: -45px;
+        width: 60px;
+        height: 60px;
+        padding-top: 23px;
+        text-align: center;
+    }
+    .mob-product .form-mark p:first-child {
+        font-weight: 750;
+        font-size: 12px;
+        line-height: 16px;
+        margin: 0;
+        font-family: "AvenirNextW06-Bold";
+    }
+    .first-blocks-and-form h2 {
+        max-width: unset;
+        text-align: center;
+    }
+    .mob-product>img {
+        width: 150px;
+    }
+}
+
+@media (max-width: 630px) {
+    .first-blocks-and-form {
+        padding: 30px 40px 25px;
+    }
+    .first-blocks-and-form h2 {
+        font-size: 42px;
+        line-height: 36px;
+        text-align: left;
+        width: 370px;
+        letter-spacing: 1px;
+        margin-bottom: 30px;
+    }
+    .header-content {
+        align-items: flex-start;
+    }
+    .form-modal {
+        padding: 15px 55px;
+        max-width: 215px;
+        font-size: 22px;
+    }
+    .header-content>ul li {
+        margin-bottom: 10px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .header-content>ul li span img:last-child {
+        top: 2px;
+    }
+}
+
+@media (max-width: 425px) {
+    .first-blocks-and-form {
+        padding: 30px 25px 25px;
+    }
+    .first-blocks-and-form h2 {
+        font-size: 30px;
+        line-height: 36px;
+        text-align: left;
+        width: 255px;
+        letter-spacing: 1px;
+        margin-bottom: 30px;
+    }
+    .header-content>ul li {
+        margin-bottom: 10px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .form-modal {
+        padding: 15px 55px;
+        max-width: 160px;
+        font-size: 12px;
+    }
+    .mob-product>img {
+        width: unset;
+    }
+    .header-content>ul li span img:first-child {
+        width: 15px;
+    }
+    .header-content>ul li span img:last-child {
+        width: 11px;
+        top: 4px;
+        left: 4px;
+    }
+}
+
+/* MODAL */
+
+.header-form-in-modal {
+    display: flex;
+    margin: 0;
+}
+
+.header-form-in-modal form {
+    margin: 0;
+}
+
+.header-form-in-modal .form-product {
+    position: relative;
+}
+
+.header-form-in-modal .form-top {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    padding-top: 40px;
+}
+
+.header-form-in-modal .form-top>p {
+    padding: 0;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 24px;
+}
+
+.header-form-in-modal .form-top>img {
+    position: unset;
+    padding-right: 75px;
+}
+
+.header-form-in-modal .form-top .form-mark {
+    height: 75px;
+    width: 75px;
+    right: 5px;
+    top: 5px;
+    padding-top: 18px;
+}
+
+.header-form .form-mark p:first-child {
+    font-size: 16px;
+}
+
+.header-form .form-mark p:last-child {
+    font-size: 11px;
+}
+
+.modal-btn {
+    padding: 13px 15px;
+    border: 0;
+    max-width: 160px;
+    font-size: 12px;
+    width: 100%;
+    background: linear-gradient(270deg, #019F0C 3.85%, #94E399 94.23%), #78E383;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    font-family: "AvenirNextW06-Bold";
+    font-weight: 750;
+    color: #FBFBFB;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+#formModal .modal-dialog {
+    max-width: 320px;
+    margin: 5% auto;
+    padding: 0 15px;
+}
+
+#formModal .modal-dialog .modal-content {
+    background: transparent;
+    border: 0;
+}
+
+.course {
+    font-family: "AvenirNextW04-Regular";
+    font-weight: 450;
+    font-size: 11px;
+    line-height: 13px;
+    color: #2B2B2B;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.modal-close {
+    position: absolute;
+    right: -14px;
+    top: -19px;
+    color: #E76E54;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 0 4px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.header-form-in-modal .form-clock {
+    font-size: 12px;
+}
+
+/* END MODAL */
 
 /**2 body-process**/
 
-
 /**3 structure**/
-
 
 /**4 comparisons**/
 
+.comparisons {
+    padding: 100px 170px;
+    border: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+}
+
+.comparisons-box {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.comparisons-box-title {
+    width: 100%;
+    font-family: Lifehack Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 42px;
+    color: #2B2B2B;
+    margin-bottom: 0;
+    max-width: 433px;
+    border-bottom: 3px solid #78E383;
+}
+
+.ourProduct .comparisons-box-title {
+    width: 145px;
+}
+
+.comparisons-box-title p {
+    margin: 0;
+}
+
+.comparisons-box ul {
+    list-style: none;
+    padding-left: 7px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    margin: 0;
+}
+
+.comparisons-box ul li {
+    font-family: "AvenirNextW04-Regular";
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2B2B2B;
+    margin-bottom: 25px;
+    display: flex;
+}
+
+.comparisons-box ul li span {
+    margin-right: 15px;
+}
+
+.comparisons-result {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.comparisons-result>div:first-child {
+    width: 220px;
+    background: linear-gradient(90deg, #FF3D3D 0%, #767676 0.01%, #FFFFFF 114.45%);
+    clip-path: polygon(80% 0, 100% 50%, 80% 100%, 0 100%, 0 0);
+    padding: 15px 40px;
+}
+
+.ourProduct .comparisons-result>div:first-child {
+    background: #78E383;
+}
+
+.comparisons-result>div:first-child span {
+    font-family: Lifehack Sans;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FBFBFB;
+}
+
+.comparisons-result>div:last-child {
+    font-family: Lifehack Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    color: #828282;
+    border-bottom: 2px solid;
+    margin-left: 20px;
+    letter-spacing: 1px;
+}
+
+.comparisons-result>div:last-child p {
+    margin: 0;
+    white-space: nowrap;
+}
+
+@media (max-width: 1400px) {
+    .comparisons {
+        padding: 80px 70px;
+    }
+    .comparisons{
+
+    }
+}
 
 /**5 usefulness**/
 
-
 /**6 obesity**/
-
 
 /**7 doctor-opinions**/
 
-
 /**8 mode-of-application**/
-
 
 /**9 comment**/
 
-
 /**10 last-blocks-and-form**/
-
 
 /*--------------------all Media------------------------*/

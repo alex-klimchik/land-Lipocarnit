@@ -17,6 +17,16 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
+    <!-- Lifehack Sans -->
+    <link href="//db.onlinewebfonts.com/c/0452235d281b30b1d31d74b3fb4aee00?family=Lifehack+Sans" rel="stylesheet"
+        type="text/css" />
+    <!-- AvenirNextW04-Regular -->
+    <link href="//db.onlinewebfonts.com/c/4f23e5adf44a99020e63cd8ea791046e?family=AvenirNextW04-Regular"
+        rel="stylesheet" type="text/css" />
+    <!-- AvenirNextW06-Bold -->
+    <link href="//db.onlinewebfonts.com/c/a3bedb01641c8ea21cbc762706b3fd7e?family=AvenirNextW06-Bold" rel="stylesheet"
+        type="text/css" />
+
     <!-- Main CSS -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -25,11 +35,217 @@
 </head>
 
 <body>
+    <!-- Modal -->
+    <div class="modal fade" id="formModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="header-form header-form-in-modal">
+                    <form action=" " method="POST">
+                        <span class="modal-close" data-dismiss="modal">x</span>
+                        <div class="form-top">
+                            <p class="form-title">ДО КОНЦА АКЦИИ ОСТАЛОСЬ</p>
+                            <img class="form-product" src="./img/header-product.png" alt="Липокарнит">
+                            <div class="form-mark">
+                                <p>99 грн</p>
+                                <p>799 грн</p>
+                            </div>
+                        </div>
+                        <div class="form-clock">
+                            <div>
+                                <span class="hours"></span>
+                                <span>Часы</span>
+                            </div>
+                            <span>:</span>
+                            <div>
+                                <span class="min"></span>
+                                <span>Минуты</span>
+                            </div>
+                            <span>:</span>
+                            <div>
+                                <span class="sec"></span>
+                                <span>Секунды</span>
+                            </div>
+                        </div>
+                        <input type="text" name="name" placeholder="Введите имя" required>
+                        <input type="text" name="phone" placeholder="Номер телефона" required>
+                        <button class="modal-btn" type="submit">Заказать</button>
+                        <p class="course">*При заказе курса</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     <main>
-        <section class="first-blocks-and-form">1</section>
+        <section class="first-blocks-and-form">
+            <h2>ЛИПОКАРНИТ - запатентованный комплекс для комфортного похудения</h2>
+            <div class="header-content">
+                <ul>
+                    <li>
+                        <span>
+                            <img src="./img/Vector.png" alt="">
+                            <img src="./img/Vector-1.png" alt="">
+                        </span>
+                        Верни легкость
+                    </li>
+                    <li>
+                        <span>
+                            <img src="./img/Vector.png" alt="">
+                            <img src="./img/Vector-1.png" alt="">
+                        </span>
+                        Нормализуй массу тела
+                    </li>
+                    <li>
+                        <span>
+                            <img src="./img/Vector.png" alt="">
+                            <img src="./img/Vector-1.png" alt="">
+                        </span>
+                        Наладь обмен веществ
+                    </li>
+                    <li>
+                        <span>
+                            <img src="./img/Vector.png" alt="">
+                            <img src="./img/Vector-1.png" alt="">
+                        </span>
+                        Радуйся жизни
+                    </li>
+                </ul>
+                <div class="header-form">
+                    <form action=" " method="POST">
+                        <img class="form-product" src="./img/header-product.png" alt="Липокарнит">
+                        <div class="form-mark">
+                            <p>99 грн</p>
+                            <p>799 грн</p>
+                        </div>
+                        <p class="form-title">ДО КОНЦА АКЦИИ ОСТАЛОСЬ</p>
+                        <div class="form-clock">
+                            <div>
+                                <span class="hours"></span>
+                                <span>Часы</span>
+                            </div>
+                            <span>:</span>
+                            <div>
+                                <span class="min"></span>
+                                <span>Минуты</span>
+                            </div>
+                            <span>:</span>
+                            <div>
+                                <span class="sec"></span>
+                                <span>Секунды</span>
+                            </div>
+                        </div>
+                        <input type="text" name="name" placeholder="Введите имя">
+                        <input type="text" name="phone" placeholder="Номер телефона">
+                        <input type="submit" value="Заказать">
+                    </form>
+                </div>
+                <button class="form-modal" data-toggle="modal" data-target="#formModal">Заказать</button>
+                <div class="mob-product">
+                    <div class="form-mark">
+                        <p>99 грн</p>
+                    </div>
+                    <img src="./img/mob-product.png" alt="">
+                </div>
+                <img class="mob-woman-back" src="./img/mob-back.png" alt="">
+            </div>
+        </section>
+
+
         <section class="body-process">2</section>
         <section class="structure">3</section>
-        <section class="comparisons">4</section>
+        <section class="comparisons">
+
+            <div class="comparisons-box">
+                <div class="comparisons-box-title">
+                    <p>Обычные средства для похудения</p>
+                </div>
+                <ul>
+                    <li>
+                        <span>
+                            <img src="./img/redvec.png" alt="disc">
+                        </span>
+                        Придерживаетесь жесткой диеты
+                    </li>
+                    <li>
+                        <span>
+                            <img src="./img/redvec.png" alt="disc">
+                        </span>
+                        Принимаете гормональные препараты
+                    </li>
+                    <li>
+                        <span>
+                            <img src="./img/redvec.png" alt="disc">
+                        </span>
+                        Вызываете нарушения в работе органов
+                    </li>
+                    <li>
+                        <span>
+                            <img src="./img/redvec.png" alt="disc">
+                        </span>
+                        После курса вновь набираете вес
+                    </li>
+                    <li>
+                        <span>
+                            <img src="./img/redvec.png" alt="disc">
+                        </span>
+                        Переплачиваете деньги тренеру или диетологу
+                    </li>
+                </ul>
+                <div class="comparisons-result">
+                    <div>
+                        <span>РЕЗУЛЬТАТ:</span>
+                    </div>
+                    <div>
+                        <p>Ничего не помогает</p>
+                    </div>
+                </div>
+            </div>
+            <div class="comparisons-box ourProduct">
+                <div class="comparisons-box-title">
+                    <p>Липокарнит</p>
+                </div>
+                <ul>
+                    <li>
+                        <span>
+                            <img src="./img/greenvect.png" alt="disc">
+                        </span>
+                        Питаетесь в привычном режиме и худеете
+                    </li>
+                    <li>
+                        <span>
+                            <img src="./img/greenvect.png" alt="disc">
+                        </span>
+                        Биоактивные компоненты восстанавливают ваш гормональный баланс
+                    </li>
+                    <li>
+                        <span>
+                            <img src="./img/greenvect.png" alt="disc">
+                        </span>
+                        Ускоряете жировой обмен с помощью 3-х натуральных жиросжигателей
+                    </li>
+                    <li>
+                        <span>
+                            <img src="./img/greenvect.png" alt="disc">
+                        </span>
+                        Теперь всегда видите стройную фигуру в зеркале
+                    </li>
+                    <li>
+                        <span>
+                            <img src="./img/greenvect.png" alt="disc">
+                        </span>
+                        Худеете без диет и тренировок
+                    </li>
+                </ul>
+                <div class="comparisons-result">
+                    <div>
+                        <span>РЕЗУЛЬТАТ:</span>
+                    </div>
+                    <div>
+                        <p>Нормализовали вес 24680 человек</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
         <section class="usefulness">5</section>
         <section class="obesity">6</section>
         <section class="doctor-opinions">7</section>
@@ -37,6 +253,8 @@
         <section class="comment">9</section>
         <section class="last-blocks-and-form">10</section>
     </main>
+
+
 </body>
 
 </html>
