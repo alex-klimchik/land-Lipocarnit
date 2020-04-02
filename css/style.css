@@ -371,7 +371,7 @@ a:hover, a:focus {
         font-size: 42px;
         line-height: 36px;
         text-align: left;
-        width: 370px;
+        width: 360px;
         letter-spacing: 1px;
         margin-bottom: 30px;
     }
@@ -857,9 +857,9 @@ a:hover, a:focus {
 
 /**4 comparisons**/
 
-.comparisons {
-    padding: 100px 170px;
-    border: 1px solid #eee;
+.comparisons .container {
+    /* padding: 100px 170px; */
+    /* border: 1px solid #eee; */
     display: flex;
     justify-content: space-between;
 }
@@ -952,16 +952,118 @@ a:hover, a:focus {
     letter-spacing: 1px;
 }
 
+.ourProduct .comparisons-result>div:last-child {
+    border-bottom: 2px solid #78E383;
+}
+
 .comparisons-result>div:last-child p {
     margin: 0;
     white-space: nowrap;
 }
 
-@media (max-width: 1400px) {
-    .comparisons {
-        padding: 80px 70px;
+@media (max-width: 991px) {
+    .comparisons-box-title {
+        font-size: 32px;
+        max-width: 295px;
     }
-    /* .comparisons {} */
+    .ourProduct .comparisons-box-title {
+        width: 100px;
+    }
+    .comparisons-result>div:first-child {
+        max-width: 220px;
+        width: 50%;
+        padding-left: 20px;
+    }
+    .comparisons-result>div:last-child {
+        font-size: 22px;
+        text-align: center;
+    }
+    .comparisons-result>div:last-child p {
+        white-space: pre-wrap;
+    }
+}
+
+@media (min-width: 570px) and (max-width: 767px) {
+    .comparisons-box-title {
+        max-width: 230px;
+        font-size: 25px;
+    }
+    .ourProduct .comparisons-box-title {
+        width: 85px;
+    }
+    .comparisons-box ul li {
+        font-size: 14px;
+    }
+    .comparisons-result>div:first-child span {
+        font-size: 18px;
+    }
+    .comparisons-result>div:first-child {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .comparisons-result>div:last-child {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .comparisons-box ul li span img {
+        width: 100%;
+    }
+    .comparisons-box ul li span {
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+        flex-shrink: 0;
+    }
+}
+
+@media (max-width: 569px) {
+    .comparisons .container {
+        flex-direction: column;
+    }
+    .comparisons-box {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .comparisons-box-title {
+        max-width: 317px;
+        font-size: 34px;
+    }
+    .comparisons-box ul {
+        padding-bottom: 10px;
+    }
+    .comparisons-box ul li span img {
+        width: 15px;
+    }
+}
+
+@media (max-width: 390px) {
+    .comparisons-box-title {
+        max-width: 212px;
+        font-size: 23px;
+        border-bottom-width: 2px;
+        line-height: 28px;
+    }
+    .comparisons-box ul li {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+    .comparisons-box ul li span img {
+        width: 10px;
+    }
+    .comparisons-result>div:first-child span {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .comparisons-result>div:first-child {
+        padding-left: 15px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .comparisons-result>div:last-child {
+        font-size: 17px;
+        line-height: 22px;
+    }
 }
 
 /**6 obesity**/
