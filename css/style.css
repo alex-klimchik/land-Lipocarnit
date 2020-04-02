@@ -89,7 +89,7 @@ a:hover, a:focus {
 }
 
 .header-form .form-mark p:first-child {
-    font-weight: 750;
+    font-weight: 700;
     font-size: 27px;
     line-height: 44px;
     margin: 0;
@@ -209,226 +209,6 @@ a:hover, a:focus {
     display: none;
 }
 
-@media (min-width: 1450px) {
-    .first-blocks-and-form {
-        min-height: 100vh;
-        background-size: cover;
-        background-position: bottom;
-    }
-}
-
-@media (max-width: 1400px) {
-    .first-blocks-and-form {
-        padding: 50px 50px 0;
-        background-size: cover;
-        background-position: bottom;
-    }
-    .header-content>ul {
-        padding-left: 50px;
-    }
-    .header-form {
-        margin-right: 20px;
-    }
-    .header-form form {
-        max-width: 320px;
-        margin-bottom: 130px;
-    }
-    .header-form .form-title {
-        font-size: 28px;
-        line-height: 30px;
-        padding: 10px 82px 0 38px;
-    }
-    .header-form .form-product {
-        right: 40px;
-    }
-    .header-form .form-mark {
-        height: 100px;
-        width: 100px;
-        right: -60px;
-    }
-    .header-form .form-mark p:first-child {
-        font-size: 20px;
-        line-height: 25px;
-    }
-    .header-form .form-mark p:last-child {
-        font-size: 14px;
-    }
-    .header-form .form-clock>div span:first-child {
-        width: 40px;
-        height: 40px;
-        font-size: 24px;
-    }
-    .header-form form>input {
-        padding: 8px 15px;
-        max-width: 275px;
-    }
-    .header-form form>input[type="submit"] {
-        max-width: 220px;
-        margin-top: 15px;
-        margin-bottom: 50px;
-    }
-}
-
-@media (max-width: 1100px) {
-    .first-blocks-and-form {
-        min-height: unset;
-        padding: 30px 50px 0 20px;
-    }
-}
-
-@media (max-width: 900px) {
-    .first-blocks-and-form {
-        background-image: url('../img/mom-header-back.png');
-        z-index: 0;
-        position: relative;
-    }
-    .first-blocks-and-form:before {
-        content: ' ';
-        display: block;
-        clear: both;
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        z-index: -1;
-        background: rgba(0, 0, 0, 0.4);
-    }
-    .header-content {
-        flex-direction: column;
-        align-items: center;
-    }
-    .header-form {
-        display: none;
-    }
-    .first-blocks-and-form {
-        padding: 30px 50px 20px 20px;
-    }
-    .form-modal {
-        display: block;
-        padding: 8px 15px;
-        border: 0;
-        max-width: 160px;
-        font-size: 12px;
-        width: 100%;
-        background: linear-gradient(270deg, #019F0C 3.85%, #94E399 94.23%), #78E383;
-        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
-        border-radius: 20px;
-        font-family: "AvenirNextW06-Bold";
-        font-weight: 750;
-        color: #FBFBFB;
-        margin-bottom: 50px;
-    }
-    .header-content>ul {
-        padding-left: 0;
-    }
-    .mob-product {
-        display: block;
-    }
-    .mob-woman-back {
-        display: block;
-        position: absolute;
-        bottom: 0;
-        right: 0;
-    }
-    .mob-product {
-        position: relative;
-    }
-    .mob-product .form-mark {
-        background: url('../img/form-circle.png');
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
-        position: absolute;
-        top: -40px;
-        right: -45px;
-        width: 60px;
-        height: 60px;
-        padding-top: 23px;
-        text-align: center;
-    }
-    .mob-product .form-mark p:first-child {
-        font-weight: 750;
-        font-size: 12px;
-        line-height: 16px;
-        margin: 0;
-        font-family: "AvenirNextW06-Bold";
-    }
-    .first-blocks-and-form h2 {
-        max-width: unset;
-        text-align: center;
-    }
-    .mob-product>img {
-        width: 150px;
-    }
-}
-
-@media (max-width: 630px) {
-    .first-blocks-and-form {
-        padding: 30px 40px 25px;
-    }
-    .first-blocks-and-form h2 {
-        font-size: 42px;
-        line-height: 36px;
-        text-align: left;
-        width: 370px;
-        letter-spacing: 1px;
-        margin-bottom: 30px;
-    }
-    .header-content {
-        align-items: flex-start;
-    }
-    .form-modal {
-        padding: 15px 55px;
-        max-width: 215px;
-        font-size: 22px;
-    }
-    .header-content>ul li {
-        margin-bottom: 10px;
-        font-weight: 600;
-        font-size: 20px;
-        line-height: 28px;
-    }
-    .header-content>ul li span img:last-child {
-        top: 2px;
-    }
-}
-
-@media (max-width: 425px) {
-    .first-blocks-and-form {
-        padding: 30px 25px 25px;
-    }
-    .first-blocks-and-form h2 {
-        font-size: 30px;
-        line-height: 36px;
-        text-align: left;
-        width: 255px;
-        letter-spacing: 1px;
-        margin-bottom: 30px;
-    }
-    .header-content>ul li {
-        margin-bottom: 10px;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 16px;
-    }
-    .form-modal {
-        padding: 15px 55px;
-        max-width: 160px;
-        font-size: 12px;
-    }
-    .mob-product>img {
-        width: unset;
-    }
-    .header-content>ul li span img:first-child {
-        width: 15px;
-    }
-    .header-content>ul li span img:last-child {
-        width: 11px;
-        top: 4px;
-        left: 4px;
-    }
-}
 
 /* MODAL */
 
@@ -698,163 +478,58 @@ a:hover, a:focus {
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
 }
 
-@media screen and (max-width: 1199px) {
-    .process-wrap {
-        width: 24%;
-    }
-    .drug-wrap {
-        margin-left: 15px;
-    }
-}
-
-@media screen and (max-width: 991px) {
-    .process-wrap {
-        width: 40%;
-        margin: 0 10px 45px;
-    }
-    .process-bl {
-        flex-wrap: wrap;
-    }
-    .img-bottom {
-        bottom: -30px!important;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .process-wrap {
-        width: 41%;
-        margin: 0 10px 50px;
-    }
-    .drug-wrap h5 {
-        font-size: 24px;
-        line-height: 40px;
-    }
-    .drug-wrap p {
-        font-size: 16px;
-        line-height: 15px;
-    }
-    .decision-wrap {
-        width: 245px;
-    }
-    .process-bl {
-        margin-bottom: 45px;
-    }
-    .img-bottom {
-        bottom: -25px!important;
-    }
-    .obesity-head h5 {
-        padding: 15px 15px;
-    }
-    .img-block {
-        height: 115px!important;
-    }
-}
-
-@media screen and (max-width: 540px) {
-    .process-wrap {
-        width: 44%;
-        margin: 0 5px 40px;
-    }
-    .process-img img {
-        height: 75px;
-    }
-    .process-head h5, .obesity-head h5 {
-        font-size: 15px;
-        line-height: 18px;
-    }
-    .process-info p, .obesity-info p {
-        font-size: 14px;
-        line-height: 18px;
-    }
-    .process-content {
-        padding: 10px;
-    }
-    .decision-wrap {
-        width: 200px;
-    }
-    .img-block {
-        height: 100px!important;
-    }
-    .obesity-head h5 {
-        padding: 15px 15px!important;
-    }
-}
-
-@media screen and (max-width: 420px) {
-    .process-wrap {
-        width: 47%;
-        margin: 0 0 40px;
-    }
-    .process-img img {
-        width: 95%;
-        /* display: block; */
-        height: 75px;
-    }
-    .process-head h5, .obesity-head h5 {
-        font-size: 13px!important;
-        line-height: 16px!important;
-    }
-    .process-info p, .obesity-info p {
-        font-size: 12px!important;
-        line-height: 16px!important;
-    }
-    .process-info p {
-        margin-bottom: 45px;
-    }
-    .process-info {
-        margin-bottom: 0;
-    }
-    .headline-bl h2 {
-        font-weight: 800;
-        font-size: 24px;
-        line-height: 36px;
-    }
-    .decision-wrap {
-        width: 165px;
-    }
-    .drug-wrap h5 {
-        font-size: 19px;
-        line-height: 21px;
-    }
-    .drug-wrap p {
-        font-size: 13px;
-        line-height: 15px;
-    }
-    .obesity-head h5 {
-        padding: 10px 15px!important;
-    }
-}
-
-@media screen and (max-width: 390px) {
-    .img-block {
-        height: 85px!important;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    .process-head h5 {
-        font-size: 11px!important;
-        line-height: 14px!important;
-    }
-    .process-info p {
-        font-size: 10px!important;
-        line-height: 14px!important;
-    }
-    .decision-wrap {
-        width: 138px;
-    }
-    .drug-wrap h5 {
-        font-size: 17px;
-        line-height: 19px;
-    }
-    .drug-wrap p {
-        font-size: 11px;
-        line-height: 13px;
-    }
-}
 
 /**3 structure**/
-
+  .structure{
+      background: url(../img/bg3.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 70px 0 100px;
+  }
+  .structure-headline{
+    border-bottom: 4px solid #FBFBFB;
+      display: inline-block;
+      margin-bottom: 45px;
+  }
+  .structure-headline h3{
+      font-family: Lifehack Sans;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 48px;
+      line-height: 58px;
+      color: #FBFBFB;
+}
+  .str-content-body{
+      display: flex;
+      justify-content: start;
+      align-items: center;
+  }
+.str-info-m{
+    margin-left: 25px;
+}
+  .str-info{
+      margin-left: 35px;
+  }
+.str-info p,
+.str-info-m p{
+    color: #FBFBFB;
+}
+.str-info p span,
+.str-info-m p span{
+    font-family: Lifehack Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 34px;
+    color: #FBFBFB;
+}
+.product-gb{
+    display: none;
+}
+.water-bg{
+    display: none;
+}
 /**4 comparisons**/
 
 .comparisons {
@@ -957,12 +632,7 @@ a:hover, a:focus {
     white-space: nowrap;
 }
 
-@media (max-width: 1400px) {
-    .comparisons {
-        padding: 80px 70px;
-    }
-    /* .comparisons {} */
-}
+
 
 /**6 obesity**/
 
@@ -1019,3 +689,466 @@ a:hover, a:focus {
 /**10 last-blocks-and-form**/
 
 /*--------------------all Media------------------------*/
+@media (max-width: 1400px) {
+    .comparisons {
+        padding: 80px 70px;
+    }
+    /* .comparisons {} */
+}
+@media (min-width: 1450px) {
+    .first-blocks-and-form {
+        min-height: 100vh;
+        background-size: cover;
+        background-position: bottom;
+    }
+    .structure {
+        padding: 125px 0 180px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .first-blocks-and-form {
+        padding: 50px 50px 0;
+        background-size: cover;
+        background-position: bottom;
+    }
+    .header-content>ul {
+        padding-left: 50px;
+    }
+    .header-form {
+        margin-right: 20px;
+    }
+    .header-form form {
+        max-width: 320px;
+        margin-bottom: 130px;
+    }
+    .header-form .form-title {
+        font-size: 28px;
+        line-height: 30px;
+        padding: 10px 82px 0 38px;
+    }
+    .header-form .form-product {
+        right: 40px;
+    }
+    .header-form .form-mark {
+        height: 100px;
+        width: 100px;
+        right: -60px;
+    }
+    .header-form .form-mark p:first-child {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .header-form .form-mark p:last-child {
+        font-size: 14px;
+    }
+    .header-form .form-clock>div span:first-child {
+        width: 40px;
+        height: 40px;
+        font-size: 24px;
+    }
+    .header-form form>input {
+        padding: 8px 15px;
+        max-width: 275px;
+    }
+    .header-form form>input[type="submit"] {
+        max-width: 220px;
+        margin-top: 15px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .first-blocks-and-form {
+        min-height: unset;
+        padding: 30px 50px 0 20px;
+    }
+}
+
+@media (max-width: 900px) {
+
+    .first-blocks-and-form {
+        background-image: url('../img/mom-header-back.png');
+        z-index: 0;
+        position: relative;
+    }
+    .first-blocks-and-form:before {
+        content: ' ';
+        display: block;
+        clear: both;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        background: rgba(0, 0, 0, 0.4);
+    }
+    .header-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-form {
+        display: none;
+    }
+    .first-blocks-and-form {
+        padding: 30px 50px 20px 20px;
+    }
+    .form-modal {
+        display: block;
+        padding: 8px 15px;
+        border: 0;
+        max-width: 160px;
+        font-size: 12px;
+        width: 100%;
+        background: linear-gradient(270deg, #019F0C 3.85%, #94E399 94.23%), #78E383;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+        border-radius: 20px;
+        font-family: "AvenirNextW06-Bold";
+        font-weight: 700;
+        color: #FBFBFB;
+        margin-bottom: 50px;
+    }
+    .header-content>ul {
+        padding-left: 0;
+    }
+    .mob-product {
+        display: block;
+    }
+    .mob-woman-back {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    .mob-product {
+        position: relative;
+    }
+    .mob-product .form-mark {
+        background: url('../img/form-circle.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: -40px;
+        right: -45px;
+        width: 60px;
+        height: 60px;
+        padding-top: 23px;
+        text-align: center;
+    }
+    .mob-product .form-mark p:first-child {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 16px;
+        margin: 0;
+        font-family: "AvenirNextW06-Bold";
+    }
+    .first-blocks-and-form h2 {
+        max-width: unset;
+        text-align: center;
+    }
+    .mob-product>img {
+        width: 150px;
+    }
+}
+
+@media (max-width: 630px) {
+    .first-blocks-and-form {
+        padding: 30px 40px 25px;
+    }
+    .first-blocks-and-form h2 {
+        font-size: 42px;
+        line-height: 36px;
+        text-align: left;
+        width: 370px;
+        letter-spacing: 1px;
+        margin-bottom: 30px;
+    }
+    .header-content {
+        align-items: flex-start;
+    }
+    .form-modal {
+        padding: 15px 55px;
+        max-width: 215px;
+        font-size: 22px;
+    }
+    .header-content>ul li {
+        margin-bottom: 10px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .header-content>ul li span img:last-child {
+        top: 2px;
+    }
+}
+
+@media (max-width: 425px) {
+    .first-blocks-and-form {
+        padding: 30px 25px 25px;
+    }
+    .first-blocks-and-form h2 {
+        font-size: 30px;
+        line-height: 36px;
+        text-align: left;
+        width: 255px;
+        letter-spacing: 1px;
+        margin-bottom: 30px;
+    }
+    .header-content>ul li {
+        margin-bottom: 10px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .form-modal {
+        padding: 15px 55px;
+        max-width: 160px;
+        font-size: 12px;
+    }
+    .mob-product>img {
+        width: unset;
+    }
+    .header-content>ul li span img:first-child {
+        width: 15px;
+    }
+    .header-content>ul li span img:last-child {
+        width: 11px;
+        top: 4px;
+        left: 4px;
+    }
+}
+@media screen and (max-width: 1199px) {
+    .process-wrap {
+        width: 24%;
+    }
+    .drug-wrap {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .process-wrap {
+        width: 40%;
+        margin: 0 10px 45px;
+    }
+    .process-bl {
+        flex-wrap: wrap;
+    }
+    .img-bottom {
+        bottom: -30px!important;
+    }
+    .structure {
+        background: url(../img/bg3-pp.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 70px 0 100px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .process-wrap {
+        width: 41%;
+        margin: 0 10px 50px;
+    }
+    .drug-wrap h5 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .drug-wrap p {
+        font-size: 16px;
+        line-height: 15px;
+    }
+    .decision-wrap {
+        width: 245px;
+    }
+    .process-bl {
+        margin-bottom: 45px;
+    }
+    .img-bottom {
+        bottom: -25px!important;
+    }
+    .obesity-head h5 {
+        padding: 15px 15px;
+    }
+    .img-block {
+        height: 115px!important;
+    }
+    .structure{
+        background: url(../img/bg3-mob.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .structure{
+        position: relative;
+        padding: 70px 0 195px;
+    }
+    .product-gb{
+        z-index: 20;
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        bottom: 0;
+        right: 25%;
+        display: block;
+        background-image: url("../img/prod-mob.png");
+        background-repeat: no-repeat;
+    }
+    .water-bg{
+        z-index: 10;
+        position: absolute;
+        width: 100%;
+        height: 330px;
+        bottom: 0;
+        display: block;
+        background-image: url("../img/water.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .structure{
+        padding: 50px 0 195px;
+    }
+    .product-gb{
+        width: 200px;
+        height: 200px;
+        right: -3%;
+    }
+    .water-bg{
+        width: 100%;
+        height: 245px;
+    }
+    .str-img img{
+        width: 55px;
+    }
+    .str-info p span, .str-info-m p span {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .str-info p, .str-info-m p {
+        margin-bottom: 0;
+    }
+    .structure-headline h3 {
+        font-size: 30px;
+        line-height: 27px;
+    }
+    .str-info {
+        margin-left: 25px;
+    }
+    .process-wrap {
+        width: 44%;
+        margin: 0 5px 40px;
+    }
+    .process-img img {
+        height: 75px;
+    }
+    .process-head h5, .obesity-head h5 {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .process-info p, .obesity-info p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .process-content {
+        padding: 10px;
+    }
+    .decision-wrap {
+        width: 200px;
+    }
+    .img-block {
+        height: 100px!important;
+    }
+    .obesity-head h5 {
+        padding: 15px 15px!important;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .process-wrap {
+        width: 47%;
+        margin: 0 0 40px;
+    }
+    .process-img img {
+        width: 95%;
+        /* display: block; */
+        height: 75px;
+    }
+    .process-head h5, .obesity-head h5 {
+        font-size: 13px!important;
+        line-height: 16px!important;
+    }
+    .process-info p, .obesity-info p {
+        font-size: 12px!important;
+        line-height: 16px!important;
+    }
+    .process-info p {
+        margin-bottom: 45px;
+    }
+    .process-info {
+        margin-bottom: 0;
+    }
+    .headline-bl h2 {
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .decision-wrap {
+        width: 165px;
+    }
+    .drug-wrap h5 {
+        font-size: 19px;
+        line-height: 21px;
+    }
+    .drug-wrap p {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .obesity-head h5 {
+        padding: 10px 15px!important;
+    }
+    .str-content-body {
+        align-items: start;
+    }
+    .str-info p span, .str-info-m p span {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .img-block {
+        height: 85px!important;
+    }
+    .water-bg {
+        height: 175px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .process-head h5 {
+        font-size: 11px!important;
+        line-height: 14px!important;
+    }
+    .process-info p {
+        font-size: 10px!important;
+        line-height: 14px!important;
+    }
+    .decision-wrap {
+        width: 138px;
+    }
+    .drug-wrap h5 {
+        font-size: 17px;
+        line-height: 19px;
+    }
+    .drug-wrap p {
+        font-size: 11px;
+        line-height: 13px;
+    }
+}
+
