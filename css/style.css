@@ -857,9 +857,11 @@ a:hover, a:focus {
 
 /**4 comparisons**/
 
+.comparisons {
+    margin-bottom: 120px;
+}
+
 .comparisons .container {
-    /* padding: 100px 170px; */
-    /* border: 1px solid #eee; */
     display: flex;
     justify-content: space-between;
 }
@@ -1109,6 +1111,197 @@ a:hover, a:focus {
 }
 
 /**5 usefulness**/
+
+.usefulness {
+    background-image: url('../img/usefulness-back.png');
+    padding-top: 55px;
+    padding-bottom: 55px;
+    position: relative;
+    background-size: cover;
+}
+
+.usefulness_title {
+    font-family: Lifehack Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FBFBFB;
+    width: 500px;
+    border-bottom: 4px solid #FBFBFB;
+}
+
+.usefulness_title p {
+    margin: 0;
+}
+
+.usefulness_componens {
+    margin-top: 55px;
+    width: 100%;
+    max-width: 340px;
+    list-style: none;
+}
+
+.usefulness_componens li {
+    margin-bottom: 35px;
+}
+
+.usefulness_componens li p {
+    margin: 0;
+}
+
+.usefulness_componens li p:first-child {
+    font-family: Lifehack Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 43px;
+    color: #FBFBFB;
+}
+
+.usefulness_componens li p:last-child {
+    font-family: "AvenirNextW06-Thin";
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FBFBFB;
+}
+
+.usefulnes_product {
+    position: absolute;
+    bottom: 10px;
+    right: 33%;
+}
+
+.usefulness_woman {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+@media (max-width: 1199px) {
+    .usefulness {
+        padding-top: 35px;
+        padding-bottom: 15px;
+    }
+    .usefulness_woman {
+        width: 530px;
+    }
+    .usefulnes_product {
+        width: 270px;
+    }
+}
+
+@media (max-width: 991px) {
+    .usefulness_woman {
+        width: 330px;
+    }
+    .usefulnes_product {
+        width: 190px;
+        right: 240px;
+    }
+    .usefulness_componens li:last-child {
+        width: 240px;
+    }
+}
+
+@media (max-width: 767px) {
+    .usefulness {
+        padding-bottom: 125px;
+        background-position: center;
+        z-index: 0;
+    }
+    .usefulness:before {
+        content: ' ';
+        display: block;
+        clear: both;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        background: rgba(0, 0, 0, 0.25);
+    }
+    .usefulness_componens {
+        max-width: 100%;
+    }
+    .usefulness_componens li:last-child {
+        width: 100%;
+        padding-right: 160px;
+    }
+    .usefulness_woman {
+        width: 230px;
+    }
+    .usefulnes_product {
+        width: 130px;
+        right: 220px;
+    }
+}
+
+@media (max-width: 600px) {
+    .usefulness_title {
+        font-size: 30px;
+        width: 315px;
+    }
+    .usefulness_componens {
+        position: relative;
+        margin-top: 35px;
+        padding-left: 20px;
+    }
+    .usefulness_componens li {
+        margin-bottom: 20px;
+    }
+    .usefulness_componens li p:first-child {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .usefulness_componens li p:last-child {
+        font-size: 14px;
+    }
+    .usefulness_componens li:last-child {
+        padding-right: 180px;
+    }
+    .usefulnes_product {
+        width: 110px;
+        left: 55px;
+    }
+}
+
+@media (max-width: 420px) {
+    .usefulness {
+        padding-bottom: 70px;
+    }
+    .usefulness_title {
+        font-size: 22px;
+        width: 270px;
+        letter-spacing: 1px;
+        border-width: 2px;
+        line-height: 36px;
+    }
+    .usefulness_componens {
+        padding-right: 30px;
+    }
+    .usefulness_componens li p:first-child {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+    .usefulness_componens li p:last-child {
+        font-size: 12px;
+    }
+    .usefulness_componens li:last-child {
+        padding-right: 20px;
+    }
+    .usefulness_woman {
+        width: 150px;
+    }
+    .usefulnes_product {
+        width: 73px;
+        right: 135px; 
+        left: unset;
+        bottom: 0;
+    }
+}
 
 /**6 obesity**/
 
