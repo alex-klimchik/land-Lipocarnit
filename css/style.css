@@ -327,8 +327,8 @@ a:hover, a:focus {
     font-family: Lifehack Sans;
     font-style: normal;
     font-weight: 800;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 48px;
+    line-height: 58px;
     color: #2B2B2B;
     text-transform: uppercase;
     margin-bottom: 70px;
@@ -683,6 +683,73 @@ a:hover, a:focus {
 /**7 doctor-opinions**/
 
 /**8 mode-of-application**/
+.mode-of-application{
+    position: relative;
+}
+.kaps-wrap{
+    position: relative;
+    margin-top: 30px;
+}
+.bg-kaps{
+    position: absolute;
+    z-index: 10;
+    top: 9%;
+}
+.water-bg-bl{
+    z-index: 15;
+    position: absolute;
+    width: 100%;
+    height: 640px;
+    bottom: 0;
+    display: block;
+    background-image: url("../img/water2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.application-wrap{
+    float: right;
+    display: block;
+    margin-bottom: 100px;
+    z-index: 20;
+}
+.bg-kaps{
+    width: 90%;
+}
+.application-bl{
+    width: 350px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 55px;
+}
+.app-content p{
+    margin-left: 55px;
+    font-family: Avenir Next Cyr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #2B2B2B;
+}
+.app-arrows{
+    z-index: 20;
+    position: absolute;
+    bottom: -125px;
+    right: 20px;
+}
+.app-arrows-s{
+    z-index: 20;
+    position: absolute;
+    bottom: -125px;
+    left: -120px;
+}
+.app-c-fest{
+    width: 190px;
+}
+.app-c-fest-t{
+    width: 140px;
+}
 
 /**9 comment**/
 
@@ -929,6 +996,9 @@ a:hover, a:focus {
 }
 
 @media screen and (max-width: 991px) {
+    .application-wrap{
+        margin: 0 auto;
+    }
     .process-wrap {
         width: 40%;
         margin: 0 10px 45px;
@@ -1008,6 +1078,14 @@ a:hover, a:focus {
         background-repeat: no-repeat;
         background-size: cover;
     }
+    .water-bg-bl {
+        z-index: 15;
+        width: 100%;
+        height: 224px;
+        bottom: 0;
+        display: block;
+        background-size: contain;
+    }
 }
 
 @media screen and (max-width: 540px) {
@@ -1067,8 +1145,60 @@ a:hover, a:focus {
     .obesity-head h5 {
         padding: 15px 15px!important;
     }
-}
+    .application-bl{
+        margin: 0 auto;
+        width: 200px;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .app-arrows{
+        bottom: -47px;
+        right: 5px;
+    }
+    .app-arrows img{
+        width: 45px;
+    }
+    .app-arrows-s{
+        bottom: -40px;
+        left: -70px;
+    }
+    .app-arrows-s img{
+        width: 55px;
+    }
+    .water-bg-bl {
+        height: 185px;
+    }
+    .app-content p {
+        margin-left: 25px;
+    }
+    .app-content p {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .num-bl img{
+        width: 12px;
+        height: 30px;
+    }
+    .app-c-fest{
+        width: 120px;
+    }
+    .app-c-fest-t{
+        width: 100px;
+    }
 
+    .application-wrap {
+        float: none;
+        display: block;
+        margin: 0 auto 60px;
+    }
+    .headline-bl h2 {
+        margin-bottom: 40px;
+    }
+
+}
+@media screen and (max-width: 480px) {
+
+}
 @media screen and (max-width: 420px) {
     .process-wrap {
         width: 47%;
@@ -1118,6 +1248,9 @@ a:hover, a:focus {
     .str-info p span, .str-info-m p span {
         font-size: 18px;
         line-height: 20px;
+    }
+    .application-wrap {
+        margin: 0 auto 100px;
     }
 }
 
