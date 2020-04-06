@@ -11,5 +11,25 @@ function countdown() {
 $(document).ready(() => {
     setInterval(() => {
         countdown();
-    }, 1000); 
+    }, 1000);
+
+    $('.owl-carousel').owlCarousel({
+        dots: true,
+        loop: true,
+        margin: 32,
+        responsive: {
+            0: {
+                items: 1,
+            },
+            500: {
+                items: 2,
+            },
+            992: {
+                items: 3,
+                loop: false
+            },
+        },
+
+    });
+
 });
