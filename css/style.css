@@ -209,249 +209,29 @@ a:hover, a:focus {
     display: none;
 }
 
-@media (min-width: 1450px) {
-    .first-blocks-and-form {
-        min-height: 100vh;
-        background-size: cover;
-        background-position: bottom;
-    }
-}
-
-@media (max-width: 1400px) {
-    .first-blocks-and-form {
-        padding: 50px 50px 0;
-        background-size: cover;
-        background-position: bottom;
-    }
-    .header-content>ul {
-        padding-left: 50px;
-    }
-    .header-form {
-        margin-right: 20px;
-    }
-    .header-form form {
-        margin-bottom: 130px;
-    }
-    .header-form .form-title {
-        font-size: 28px;
-        line-height: 30px;
-        padding: 10px 82px 0 38px;
-    }
-    .header-form .form-product {
-        right: 40px;
-    }
-    .header-form .form-mark {
-        height: 100px;
-        width: 100px;
-        right: -60px;
-    }
-    .header-form .form-mark p:first-child {
-        font-size: 20px;
-        line-height: 25px;
-    }
-    .header-form .form-mark p:last-child {
-        font-size: 14px;
-    }
-    .header-form .form-clock>div span:first-child {
-        width: 40px;
-        height: 40px;
-        font-size: 24px;
-    }
-    .header-form form>input {
-        padding: 8px 15px;
-        max-width: 275px;
-    }
-    .header-form form>input[type="submit"] {
-        max-width: 220px;
-        margin-top: 15px;
-        margin-bottom: 50px;
-    }
-}
-
-@media (max-width: 1100px) {
-    .first-blocks-and-form {
-        min-height: unset;
-        padding: 30px 50px 0 20px;
-    }
-}
-
-@media (max-width: 900px) {
-    .first-blocks-and-form {
-        background-image: url('../img/mom-header-back.png');
-        z-index: 0;
-        position: relative;
-    }
-    .first-blocks-and-form:before {
-        content: ' ';
-        display: block;
-        clear: both;
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        z-index: -1;
-        background: rgba(0, 0, 0, 0.4);
-    }
-    .header-content {
-        flex-direction: column;
-        align-items: center;
-    }
-    .header-form {
-        display: none;
-    }
-    .first-blocks-and-form {
-        padding: 30px 50px 20px 20px;
-    }
-    .form-modal {
-        display: block;
-        padding: 8px 15px;
-        border: 0;
-        max-width: 160px;
-        font-size: 12px;
-        width: 100%;
-        background: linear-gradient(270deg, #019F0C 3.85%, #94E399 94.23%), #78E383;
-        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
-        border-radius: 20px;
-        font-family: "AvenirNextW06-Bold";
-        font-weight: 750;
-        color: #FBFBFB;
-        margin-bottom: 50px;
-    }
-    .header-content>ul {
-        padding-left: 0;
-    }
-    .mob-product {
-        display: block;
-    }
-    .mob-woman-back {
-        display: block;
-        position: absolute;
-        bottom: 0;
-        right: 0;
-    }
-    .mob-product {
-        position: relative;
-    }
-    .mob-product .form-mark {
-        background: url('../img/form-circle.png');
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
-        position: absolute;
-        top: -40px;
-        right: -45px;
-        width: 60px;
-        height: 60px;
-        padding-top: 23px;
-        text-align: center;
-    }
-    .mob-product .form-mark p:first-child {
-        font-weight: 750;
-        font-size: 12px;
-        line-height: 16px;
-        margin: 0;
-        font-family: "AvenirNextW06-Bold";
-    }
-    .first-blocks-and-form h2 {
-        max-width: unset;
-        text-align: center;
-    }
-    .mob-product>img {
-        width: 150px;
-    }
-}
-
-@media (max-width: 630px) {
-    .first-blocks-and-form {
-        padding: 30px 40px 25px;
-    }
-    .first-blocks-and-form h2 {
-        font-size: 42px;
-        line-height: 36px;
-        text-align: left;
-        width: 360px;
-        letter-spacing: 1px;
-        margin-bottom: 30px;
-    }
-    .header-content {
-        align-items: flex-start;
-    }
-    .form-modal {
-        padding: 15px 55px;
-        max-width: 215px;
-        font-size: 22px;
-    }
-    .header-content>ul li {
-        margin-bottom: 10px;
-        font-weight: 600;
-        font-size: 20px;
-        line-height: 28px;
-    }
-    .header-content>ul li span img:last-child {
-        top: 2px;
-    }
-}
-
-@media (max-width: 425px) {
-    .first-blocks-and-form {
-        padding: 30px 25px 25px;
-    }
-    .first-blocks-and-form h2 {
-        font-size: 30px;
-        line-height: 36px;
-        text-align: left;
-        width: 255px;
-        letter-spacing: 1px;
-        margin-bottom: 30px;
-    }
-    .header-content>ul li {
-        margin-bottom: 10px;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 16px;
-    }
-    .form-modal {
-        padding: 15px 55px;
-        max-width: 160px;
-        font-size: 12px;
-    }
-    .mob-product>img {
-        width: unset;
-    }
-    .header-content>ul li span img:first-child {
-        width: 15px;
-    }
-    .header-content>ul li span img:last-child {
-        width: 11px;
-        top: 4px;
-        left: 4px;
-    }
-}
-
 /* MODAL */
 
-.header-form-in-modal {
+.header-form-in-modal.header-form {
     display: flex;
     margin: 0;
 }
 
-.header-form-in-modal form {
+.header-form-in-modal.header-form form {
     margin: 0;
 }
 
-.header-form-in-modal .form-product {
+.header-form-in-modal.header-form .form-product {
     position: relative;
 }
 
-.header-form-in-modal .form-top {
+.header-form-in-modal.header-form .form-top {
     display: flex;
     align-items: flex-start;
     flex-wrap: nowrap;
     padding-top: 40px;
 }
 
-.header-form-in-modal .form-top>p {
+.header-form-in-modal.header-form .form-top>p {
     padding: 0;
     padding-left: 15px;
     padding-bottom: 10px;
@@ -459,12 +239,12 @@ a:hover, a:focus {
     font-size: 24px;
 }
 
-.header-form-in-modal .form-top>img {
+.header-form-in-modal.header-form .form-top>img {
     position: unset;
     padding-right: 75px;
 }
 
-.header-form-in-modal .form-top .form-mark {
+.header-form-in-modal.header-form .form-top .form-mark {
     height: 75px;
     width: 75px;
     right: 5px;
@@ -532,18 +312,6 @@ a:hover, a:focus {
 
 .header-form-in-modal .form-clock {
     font-size: 12px;
-}
-
-@media (min-width: 1400px) {
-    .header-form .form-mark p:first-child {
-        line-height: 20px;
-    }
-    .header-form-in-modal .form-top .form-mark {
-        padding-top: 23px;
-    }
-    .header-form .form-mark {
-        padding-top: 50px;
-    }
 }
 
 /* END MODAL */
@@ -974,111 +742,6 @@ a:hover, a:focus {
     white-space: nowrap;
 }
 
-@media (max-width: 991px) {
-    .comparisons-box-title {
-        font-size: 32px;
-        max-width: 295px;
-    }
-    .ourProduct .comparisons-box-title {
-        width: 100px;
-    }
-    .comparisons-result>div:first-child {
-        max-width: 220px;
-        width: 50%;
-        padding-left: 20px;
-    }
-    .comparisons-result>div:last-child {
-        font-size: 22px;
-        text-align: center;
-    }
-    .comparisons-result>div:last-child p {
-        white-space: pre-wrap;
-    }
-}
-
-@media (min-width: 570px) and (max-width: 767px) {
-    .comparisons-box-title {
-        max-width: 230px;
-        font-size: 25px;
-    }
-    .ourProduct .comparisons-box-title {
-        width: 85px;
-    }
-    .comparisons-box ul li {
-        font-size: 14px;
-    }
-    .comparisons-result>div:first-child span {
-        font-size: 18px;
-    }
-    .comparisons-result>div:first-child {
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
-    .comparisons-result>div:last-child {
-        font-size: 14px;
-        line-height: 16px;
-    }
-    .comparisons-box ul li span img {
-        width: 100%;
-    }
-    .comparisons-box ul li span {
-        width: 15px;
-        height: 15px;
-        margin-right: 5px;
-        flex-shrink: 0;
-    }
-}
-
-@media (max-width: 569px) {
-    .comparisons .container {
-        flex-direction: column;
-    }
-    .comparisons-box {
-        width: 100%;
-        margin-bottom: 25px;
-    }
-    .comparisons-box-title {
-        max-width: 317px;
-        font-size: 34px;
-    }
-    .comparisons-box ul {
-        padding-bottom: 10px;
-    }
-    .comparisons-box ul li span img {
-        width: 15px;
-    }
-}
-
-@media (max-width: 390px) {
-    .comparisons-box-title {
-        max-width: 212px;
-        font-size: 23px;
-        border-bottom-width: 2px;
-        line-height: 28px;
-    }
-    .comparisons-box ul li {
-        font-size: 14px;
-        line-height: 20px;
-        margin-bottom: 15px;
-    }
-    .comparisons-box ul li span img {
-        width: 10px;
-    }
-    .comparisons-result>div:first-child span {
-        font-size: 20px;
-        line-height: 20px;
-    }
-    .comparisons-result>div:first-child {
-        padding-left: 15px;
-        padding-top: 8px;
-        padding-bottom: 8px;
-    }
-    .comparisons-result>div:last-child {
-        font-size: 17px;
-        line-height: 22px;
-    }
-}
-
 /**6 obesity**/
 
 .obesity-head h5 {
@@ -1218,136 +881,6 @@ a:hover, a:focus {
     right: 0;
 }
 
-@media (max-width: 1199px) {
-    .usefulness {
-        padding-top: 35px;
-        padding-bottom: 15px;
-    }
-    .usefulness_woman {
-        width: 530px;
-    }
-    .usefulnes_product {
-        width: 270px;
-    }
-}
-
-@media (max-width: 991px) {
-    .usefulness_woman {
-        width: 330px;
-    }
-    .usefulnes_product {
-        width: 190px;
-        right: 240px;
-    }
-    .usefulness-list_one {
-        right: 440px;
-    }
-    .usefulness_componens li:last-child {
-        width: 240px;
-    }
-}
-
-@media (max-width: 767px) {
-    .usefulness-list_one, .usefulness-list_two, .usefulness-list_three, .usefulness-list_four {
-        display: none;
-    }
-    .usefulness {
-        padding-bottom: 125px;
-        background-position: center;
-        z-index: 0;
-    }
-    .usefulness:before {
-        content: ' ';
-        display: block;
-        clear: both;
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        z-index: -1;
-        background: rgba(0, 0, 0, 0.25);
-    }
-    .usefulness_componens {
-        max-width: 100%;
-    }
-    .usefulness_componens li:last-child {
-        width: 100%;
-        padding-right: 160px;
-    }
-    .usefulness_woman {
-        width: 230px;
-    }
-    .usefulnes_product {
-        width: 130px;
-        right: 220px;
-    }
-}
-
-@media (max-width: 600px) {
-    .usefulness_title {
-        font-size: 30px;
-        width: 315px;
-    }
-    .usefulness_componens {
-        position: relative;
-        margin-top: 35px;
-        padding-left: 20px;
-    }
-    .usefulness_componens li {
-        margin-bottom: 20px;
-    }
-    .usefulness_componens li p:first-child {
-        font-size: 20px;
-        line-height: 30px;
-    }
-    .usefulness_componens li p:last-child {
-        font-size: 14px;
-    }
-    .usefulness_componens li:last-child {
-        padding-right: 180px;
-    }
-    .usefulnes_product {
-        width: 110px;
-        left: 55px;
-    }
-}
-
-@media (max-width: 420px) {
-    .usefulness {
-        padding-bottom: 70px;
-    }
-    .usefulness_title {
-        font-size: 22px;
-        width: 270px;
-        letter-spacing: 1px;
-        border-width: 2px;
-        line-height: 36px;
-    }
-    .usefulness_componens {
-        padding-right: 30px;
-    }
-    .usefulness_componens li p:first-child {
-        font-size: 16px;
-        letter-spacing: 1px;
-    }
-    .usefulness_componens li p:last-child {
-        font-size: 12px;
-    }
-    .usefulness_componens li:last-child {
-        padding-right: 20px;
-    }
-    .usefulness_woman {
-        width: 150px;
-    }
-    .usefulnes_product {
-        width: 73px;
-        right: 135px;
-        left: unset;
-        bottom: 0;
-    }
-}
-
 /**6 obesity**/
 
 /**7 doctor-opinions**/
@@ -1410,84 +943,6 @@ a:hover, a:focus {
     width: 70px;
 }
 
-@media (max-width: 1330px) {
-    .doctor_opinions-img {
-        width: 600px;
-    }
-}
-
-@media (max-width: 1199px) {
-    .doctor_opinions-img {
-        width: 430px;
-    }
-}
-
-@media (max-width: 991px) {
-    .doctor_opinions-img {
-        width: 250px;
-    }
-    .doctor-opinions .container>p {
-        width: 545px;
-    }
-}
-
-@media (max-width: 767px) {
-    .doctor-opinions .container {
-        max-width: 100%;
-        padding-left: 35px;
-    }
-    .doctor-opinions .container>p {
-        width: 100%;
-        padding-right: 100px;
-    }
-    .doctor_opinions-img {
-        width: 200px;
-    }
-    .doctor-opinions .container>p:last-child {
-        padding-right: 222px;
-    }
-    .doctor_autograph {
-        right: 165px;
-    }
-}
-
-@media (max-width: 500px) {
-    .doctor-opinions {
-        padding-top: 20px;
-        overflow: hidden;
-    }
-    .doctor_opinions-img {
-        width: 140px;
-        right: -21px;
-    }
-    .doctor_autograph {
-        display: none;
-    }
-    .doctor_opinions-title {
-        font-size: 24px;
-        line-height: 38px;
-        width: 125px;
-        margin-bottom: 10px;
-        border-width: 2px;
-    }
-    .doctor-opinions .container>p {
-        font-size: 10px;
-        padding-right: 40px;
-        line-height: 15px;
-        margin-bottom: 15px;
-        position: relative;
-    }
-    .doctor-opinions .container {
-        padding-left: 15px;
-    }
-    .doctor-opinions .container>p:last-child {
-        font-size: 9px;
-        padding-right: 85px;
-        line-height: 12px;
-        margin-top: 25px;
-    }
-}
-
 /**8 mode-of-application**/
 
 /**9 comment**/
@@ -1528,6 +983,140 @@ a:hover, a:focus {
     margin-bottom: 70px;
 }
 
+/**10 last-blocks-and-form**/
+
+/*--------------------all Media------------------------*/
+
+@media (max-width: 1400px) {
+    .first-blocks-and-form {
+        padding: 50px 50px 0;
+        background-size: cover;
+        background-position: bottom;
+    }
+    .header-content>ul {
+        padding-left: 50px;
+    }
+    .header-form {
+        margin-right: 20px;
+    }
+    .header-form form {
+        margin-bottom: 130px;
+    }
+    .header-form .form-title {
+        font-size: 28px;
+        line-height: 30px;
+        padding: 10px 82px 0 38px;
+    }
+    .header-form .form-product {
+        right: 40px;
+    }
+    .header-form .form-mark {
+        height: 100px;
+        width: 100px;
+        right: -60px;
+    }
+    .header-form .form-mark p:first-child {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .header-form .form-mark p:last-child {
+        font-size: 14px;
+    }
+    .header-form .form-clock>div span:first-child {
+        width: 40px;
+        height: 40px;
+        font-size: 24px;
+    }
+    .header-form form>input {
+        padding: 8px 15px;
+        max-width: 275px;
+    }
+    .header-form form>input[type="submit"] {
+        max-width: 220px;
+        margin-top: 15px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 1330px) {
+    .doctor_opinions-img {
+        width: 600px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .usefulness {
+        padding-top: 35px;
+        padding-bottom: 15px;
+    }
+    .usefulness_woman {
+        width: 530px;
+    }
+    .usefulnes_product {
+        width: 270px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .doctor_opinions-img {
+        width: 430px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .first-blocks-and-form {
+        min-height: unset;
+        padding: 30px 50px 0 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .comparisons-box-title {
+        font-size: 32px;
+        max-width: 295px;
+    }
+    .ourProduct .comparisons-box-title {
+        width: 100px;
+    }
+    .comparisons-result>div:first-child {
+        max-width: 220px;
+        width: 50%;
+        padding-left: 20px;
+    }
+    .comparisons-result>div:last-child {
+        font-size: 22px;
+        text-align: center;
+    }
+    .comparisons-result>div:last-child p {
+        white-space: pre-wrap;
+    }
+}
+
+@media (max-width: 991px) {
+    .usefulness_woman {
+        width: 330px;
+    }
+    .usefulnes_product {
+        width: 190px;
+        right: 240px;
+    }
+    .usefulness-list_one {
+        right: 440px;
+    }
+    .usefulness_componens li:last-child {
+        width: 240px;
+    }
+}
+
+@media (max-width: 991px) {
+    .doctor_opinions-img {
+        width: 250px;
+    }
+    .doctor-opinions .container>p {
+        width: 545px;
+    }
+}
+
 @media(max-width: 991px) {
     .comment .order-product>a {
         color: #FBFBFB;
@@ -1535,6 +1124,183 @@ a:hover, a:focus {
         padding: 25px 80px;
         background: linear-gradient(270deg, #019F0C 3.85%, #94E399 94.23%), #78E383;
         box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    }
+}
+
+@media (max-width: 900px) {
+    .first-blocks-and-form {
+        background-image: url('../img/mom-header-back.png');
+        z-index: 0;
+        position: relative;
+    }
+    .first-blocks-and-form:before {
+        content: ' ';
+        display: block;
+        clear: both;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        background: rgba(0, 0, 0, 0.4);
+    }
+    .header-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-form {
+        display: none;
+    }
+    .first-blocks-and-form {
+        padding: 30px 50px 20px 20px;
+    }
+    .form-modal {
+        display: block;
+        padding: 8px 15px;
+        border: 0;
+        max-width: 160px;
+        font-size: 12px;
+        width: 100%;
+        background: linear-gradient(270deg, #019F0C 3.85%, #94E399 94.23%), #78E383;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+        border-radius: 20px;
+        font-family: "AvenirNextW06-Bold";
+        font-weight: 750;
+        color: #FBFBFB;
+        margin-bottom: 50px;
+    }
+    .header-content>ul {
+        padding-left: 0;
+    }
+    .mob-product {
+        display: block;
+    }
+    .mob-woman-back {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    .mob-product {
+        position: relative;
+    }
+    .mob-product .form-mark {
+        background: url('../img/form-circle.png');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: -40px;
+        right: -45px;
+        width: 60px;
+        height: 60px;
+        padding-top: 23px;
+        text-align: center;
+    }
+    .mob-product .form-mark p:first-child {
+        font-weight: 750;
+        font-size: 12px;
+        line-height: 16px;
+        margin: 0;
+        font-family: "AvenirNextW06-Bold";
+    }
+    .first-blocks-and-form h2 {
+        max-width: unset;
+        text-align: center;
+    }
+    .mob-product>img {
+        width: 150px;
+    }
+}
+
+@media (min-width: 570px) and (max-width: 767px) {
+    .comparisons-box-title {
+        max-width: 230px;
+        font-size: 25px;
+    }
+    .ourProduct .comparisons-box-title {
+        width: 85px;
+    }
+    .comparisons-box ul li {
+        font-size: 14px;
+    }
+    .comparisons-result>div:first-child span {
+        font-size: 18px;
+    }
+    .comparisons-result>div:first-child {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .comparisons-result>div:last-child {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .comparisons-box ul li span img {
+        width: 100%;
+    }
+    .comparisons-box ul li span {
+        width: 15px;
+        height: 15px;
+        margin-right: 5px;
+        flex-shrink: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .usefulness-list_one, .usefulness-list_two, .usefulness-list_three, .usefulness-list_four {
+        display: none;
+    }
+    .usefulness {
+        padding-bottom: 125px;
+        background-position: center;
+        z-index: 0;
+    }
+    .usefulness:before {
+        content: ' ';
+        display: block;
+        clear: both;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        background: rgba(0, 0, 0, 0.25);
+    }
+    .usefulness_componens {
+        max-width: 100%;
+    }
+    .usefulness_componens li:last-child {
+        width: 100%;
+        padding-right: 160px;
+    }
+    .usefulness_woman {
+        width: 230px;
+    }
+    .usefulnes_product {
+        width: 130px;
+        right: 220px;
+    }
+}
+
+@media (max-width: 767px) {
+    .doctor-opinions .container {
+        max-width: 100%;
+        padding-left: 35px;
+    }
+    .doctor-opinions .container>p {
+        width: 100%;
+        padding-right: 100px;
+    }
+    .doctor_opinions-img {
+        width: 200px;
+    }
+    .doctor-opinions .container>p:last-child {
+        padding-right: 222px;
+    }
+    .doctor_autograph {
+        right: 165px;
     }
 }
 
@@ -1547,6 +1313,240 @@ a:hover, a:focus {
     }
 }
 
-/**10 last-blocks-and-form**/
+@media (max-width: 630px) {
+    .first-blocks-and-form {
+        padding: 30px 40px 25px;
+    }
+    .first-blocks-and-form h2 {
+        font-size: 42px;
+        line-height: 36px;
+        text-align: left;
+        width: 360px;
+        letter-spacing: 1px;
+        margin-bottom: 30px;
+    }
+    .header-content {
+        align-items: flex-start;
+    }
+    .form-modal {
+        padding: 15px 55px;
+        max-width: 215px;
+        font-size: 22px;
+    }
+    .header-content>ul li {
+        margin-bottom: 10px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .header-content>ul li span img:last-child {
+        top: 2px;
+    }
+}
 
-/*--------------------all Media------------------------*/
+@media (max-width: 600px) {
+    .usefulness_title {
+        font-size: 30px;
+        width: 315px;
+    }
+    .usefulness_componens {
+        position: relative;
+        margin-top: 35px;
+        padding-left: 20px;
+    }
+    .usefulness_componens li {
+        margin-bottom: 20px;
+    }
+    .usefulness_componens li p:first-child {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .usefulness_componens li p:last-child {
+        font-size: 14px;
+    }
+    .usefulness_componens li:last-child {
+        padding-right: 180px;
+    }
+    .usefulnes_product {
+        width: 110px;
+        left: 55px;
+    }
+}
+
+@media (max-width: 569px) {
+    .comparisons .container {
+        flex-direction: column;
+    }
+    .comparisons-box {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+    .comparisons-box-title {
+        max-width: 317px;
+        font-size: 34px;
+    }
+    .comparisons-box ul {
+        padding-bottom: 10px;
+    }
+    .comparisons-box ul li span img {
+        width: 15px;
+    }
+}
+
+@media (max-width: 500px) {
+    .doctor-opinions {
+        padding-top: 20px;
+        overflow: hidden;
+    }
+    .doctor_opinions-img {
+        width: 140px;
+        right: -21px;
+    }
+    .doctor_autograph {
+        display: none;
+    }
+    .doctor_opinions-title {
+        font-size: 24px;
+        line-height: 38px;
+        width: 125px;
+        margin-bottom: 10px;
+        border-width: 2px;
+    }
+    .doctor-opinions .container>p {
+        font-size: 10px;
+        padding-right: 40px;
+        line-height: 15px;
+        margin-bottom: 15px;
+        position: relative;
+    }
+    .doctor-opinions .container {
+        padding-left: 15px;
+    }
+    .doctor-opinions .container>p:last-child {
+        font-size: 9px;
+        padding-right: 85px;
+        line-height: 12px;
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 425px) {
+    .first-blocks-and-form {
+        padding: 30px 25px 25px;
+    }
+    .first-blocks-and-form h2 {
+        font-size: 30px;
+        line-height: 36px;
+        text-align: left;
+        width: 255px;
+        letter-spacing: 1px;
+        margin-bottom: 30px;
+    }
+    .header-content>ul li {
+        margin-bottom: 10px;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .form-modal {
+        padding: 15px 55px;
+        max-width: 160px;
+        font-size: 12px;
+    }
+    .mob-product>img {
+        width: unset;
+    }
+    .header-content>ul li span img:first-child {
+        width: 15px;
+    }
+    .header-content>ul li span img:last-child {
+        width: 11px;
+        top: 4px;
+        left: 4px;
+    }
+}
+
+@media (max-width: 420px) {
+    .usefulness {
+        padding-bottom: 70px;
+    }
+    .usefulness_title {
+        font-size: 22px;
+        width: 270px;
+        letter-spacing: 1px;
+        border-width: 2px;
+        line-height: 36px;
+    }
+    .usefulness_componens {
+        padding-right: 30px;
+    }
+    .usefulness_componens li p:first-child {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+    .usefulness_componens li p:last-child {
+        font-size: 12px;
+    }
+    .usefulness_componens li:last-child {
+        padding-right: 20px;
+    }
+    .usefulness_woman {
+        width: 150px;
+    }
+    .usefulnes_product {
+        width: 73px;
+        right: 135px;
+        left: unset;
+        bottom: 0;
+    }
+}
+
+@media (max-width: 390px) {
+    .comparisons-box-title {
+        max-width: 212px;
+        font-size: 23px;
+        border-bottom-width: 2px;
+        line-height: 28px;
+    }
+    .comparisons-box ul li {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+    .comparisons-box ul li span img {
+        width: 10px;
+    }
+    .comparisons-result>div:first-child span {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .comparisons-result>div:first-child {
+        padding-left: 15px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .comparisons-result>div:last-child {
+        font-size: 17px;
+        line-height: 22px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .header-form .form-mark p:first-child {
+        line-height: 20px;
+    }
+    .header-form-in-modal .form-top .form-mark {
+        padding-top: 23px;
+    }
+    .header-form .form-mark {
+        padding-top: 50px;
+    }
+}
+
+@media (min-width: 1450px) {
+    .first-blocks-and-form {
+        min-height: 100vh;
+        background-size: cover;
+        background-position: bottom;
+    }
+}
