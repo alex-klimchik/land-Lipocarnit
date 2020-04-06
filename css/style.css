@@ -89,7 +89,7 @@ a:hover, a:focus {
 }
 
 .header-form .form-mark p:first-child {
-    font-weight: 750;
+    font-weight: 700;
     font-size: 27px;
     line-height: 44px;
     margin: 0;
@@ -326,8 +326,8 @@ a:hover, a:focus {
     font-family: Lifehack Sans;
     font-style: normal;
     font-weight: 800;
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 48px;
+    line-height: 58px;
     color: #2B2B2B;
     text-transform: uppercase;
     margin-bottom: 70px;
@@ -477,167 +477,71 @@ a:hover, a:focus {
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
 }
 
-@media screen and (max-width: 1199px) {
-    .process-wrap {
-        width: 24%;
-    }
-    .drug-wrap {
-        margin-left: 15px;
-    }
-}
-
-@media screen and (max-width: 991px) {
-    .process-wrap {
-        width: 40%;
-        margin: 0 10px 45px;
-    }
-    .process-bl {
-        flex-wrap: wrap;
-    }
-    .img-bottom {
-        bottom: -30px!important;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .process-wrap {
-        width: 41%;
-        margin: 0 10px 50px;
-    }
-    .drug-wrap h5 {
-        font-size: 24px;
-        line-height: 40px;
-    }
-    .drug-wrap p {
-        font-size: 16px;
-        line-height: 15px;
-    }
-    .decision-wrap {
-        width: 245px;
-    }
-    .process-bl {
-        margin-bottom: 45px;
-    }
-    .img-bottom {
-        bottom: -25px!important;
-    }
-    .obesity-head h5 {
-        padding: 15px 15px;
-    }
-    .img-block {
-        height: 115px!important;
-    }
-}
-
-@media screen and (max-width: 540px) {
-    .process-wrap {
-        width: 44%;
-        margin: 0 5px 40px;
-    }
-    .process-img img {
-        height: 75px;
-    }
-    .process-head h5, .obesity-head h5 {
-        font-size: 15px;
-        line-height: 18px;
-    }
-    .process-info p, .obesity-info p {
-        font-size: 14px;
-        line-height: 18px;
-    }
-    .process-content {
-        padding: 10px;
-    }
-    .decision-wrap {
-        width: 200px;
-    }
-    .img-block {
-        height: 100px!important;
-    }
-    .obesity-head h5 {
-        padding: 15px 15px!important;
-    }
-}
-
-@media screen and (max-width: 420px) {
-    .process-wrap {
-        width: 47%;
-        margin: 0 0 40px;
-    }
-    .process-img img {
-        width: 95%;
-        /* display: block; */
-        height: 75px;
-    }
-    .process-head h5, .obesity-head h5 {
-        font-size: 13px!important;
-        line-height: 16px!important;
-    }
-    .process-info p, .obesity-info p {
-        font-size: 12px!important;
-        line-height: 16px!important;
-    }
-    .process-info p {
-        margin-bottom: 45px;
-    }
-    .process-info {
-        margin-bottom: 0;
-    }
-    .headline-bl h2 {
-        font-weight: 800;
-        font-size: 24px;
-        line-height: 36px;
-    }
-    .decision-wrap {
-        width: 165px;
-    }
-    .drug-wrap h5 {
-        font-size: 19px;
-        line-height: 21px;
-    }
-    .drug-wrap p {
-        font-size: 13px;
-        line-height: 15px;
-    }
-    .obesity-head h5 {
-        padding: 10px 15px!important;
-    }
-}
-
-@media screen and (max-width: 390px) {
-    .img-block {
-        height: 85px!important;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    .process-head h5 {
-        font-size: 11px!important;
-        line-height: 14px!important;
-    }
-    .process-info p {
-        font-size: 10px!important;
-        line-height: 14px!important;
-    }
-    .decision-wrap {
-        width: 138px;
-    }
-    .drug-wrap h5 {
-        font-size: 17px;
-        line-height: 19px;
-    }
-    .drug-wrap p {
-        font-size: 11px;
-        line-height: 13px;
-    }
-}
-
 /**3 structure**/
+
+.structure {
+    background: url(../img/bg3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 70px 0 100px;
+}
+
+.structure-headline {
+    border-bottom: 4px solid #FBFBFB;
+    display: inline-block;
+    margin-bottom: 45px;
+}
+
+.structure-headline h3 {
+    font-family: Lifehack Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FBFBFB;
+}
+
+.str-content-body {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.str-info-m {
+    margin-left: 25px;
+}
+
+.str-info {
+    margin-left: 35px;
+}
+
+.str-info p, .str-info-m p {
+    color: #FBFBFB;
+}
+
+.str-info p span, .str-info-m p span {
+    font-family: Lifehack Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 34px;
+    color: #FBFBFB;
+}
+
+.product-gb {
+    display: none;
+}
+
+.water-bg {
+    display: none;
+}
 
 /**4 comparisons**/
 
 .comparisons {
     margin-bottom: 120px;
+    margin-top: 70px;
 }
 
 .comparisons .container {
@@ -806,6 +710,87 @@ a:hover, a:focus {
     width: 100px;
 }
 
+/**8 mode-of-application**/
+
+.mode-of-application {
+    position: relative;
+}
+
+.kaps-wrap {
+    position: relative;
+    margin-top: 30px;
+}
+
+.bg-kaps {
+    position: absolute;
+    z-index: 10;
+    top: 9%;
+}
+
+.water-bg-bl {
+    z-index: 15;
+    position: absolute;
+    width: 100%;
+    height: 640px;
+    bottom: 0;
+    display: block;
+    background-image: url("../img/water2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.application-wrap {
+    float: right;
+    display: block;
+    margin-bottom: 100px;
+    z-index: 20;
+}
+
+.bg-kaps {
+    width: 90%;
+}
+
+.application-bl {
+    width: 350px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+.app-content p {
+    margin-left: 55px;
+    font-family: Avenir Next Cyr;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #2B2B2B;
+}
+
+.app-arrows {
+    z-index: 20;
+    position: absolute;
+    bottom: -125px;
+    right: 20px;
+}
+
+.app-arrows-s {
+    z-index: 20;
+    position: absolute;
+    bottom: -125px;
+    left: -120px;
+}
+
+.app-c-fest {
+    width: 190px;
+}
+
+.app-c-fest-t {
+    width: 140px;
+}
+
 .usefulness-list_four {
     position: absolute;
     left: 0px;
@@ -881,8 +866,6 @@ a:hover, a:focus {
     right: 0;
 }
 
-/**6 obesity**/
-
 /**7 doctor-opinions**/
 
 .doctor-opinions {
@@ -942,8 +925,6 @@ a:hover, a:focus {
     right: 74px;
     width: 70px;
 }
-
-/**8 mode-of-application**/
 
 /**9 comment**/
 
@@ -1055,9 +1036,6 @@ a:hover, a:focus {
     .usefulnes_product {
         width: 270px;
     }
-}
-
-@media (max-width: 1199px) {
     .doctor_opinions-img {
         width: 430px;
     }
@@ -1090,9 +1068,6 @@ a:hover, a:focus {
     .comparisons-result>div:last-child p {
         white-space: pre-wrap;
     }
-}
-
-@media (max-width: 991px) {
     .usefulness_woman {
         width: 330px;
     }
@@ -1106,18 +1081,12 @@ a:hover, a:focus {
     .usefulness_componens li:last-child {
         width: 240px;
     }
-}
-
-@media (max-width: 991px) {
     .doctor_opinions-img {
         width: 250px;
     }
     .doctor-opinions .container>p {
         width: 545px;
     }
-}
-
-@media(max-width: 991px) {
     .comment .order-product>a {
         color: #FBFBFB;
         border: 0;
@@ -1166,7 +1135,7 @@ a:hover, a:focus {
         box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
         border-radius: 20px;
         font-family: "AvenirNextW06-Bold";
-        font-weight: 750;
+        font-weight: 700;
         color: #FBFBFB;
         margin-bottom: 50px;
     }
@@ -1199,7 +1168,7 @@ a:hover, a:focus {
         text-align: center;
     }
     .mob-product .form-mark p:first-child {
-        font-weight: 750;
+        font-weight: 700;
         font-size: 12px;
         line-height: 16px;
         margin: 0;
@@ -1282,9 +1251,6 @@ a:hover, a:focus {
         width: 130px;
         right: 220px;
     }
-}
-
-@media (max-width: 767px) {
     .doctor-opinions .container {
         max-width: 100%;
         padding-left: 35px;
@@ -1302,9 +1268,6 @@ a:hover, a:focus {
     .doctor_autograph {
         right: 165px;
     }
-}
-
-@media screen and (max-width: 767px) {
     .comment-title {
         padding-top: 50px;
     }
@@ -1322,6 +1285,7 @@ a:hover, a:focus {
         line-height: 36px;
         text-align: left;
         width: 360px;
+        /* width: 370px; */
         letter-spacing: 1px;
         margin-bottom: 30px;
     }
@@ -1548,5 +1512,303 @@ a:hover, a:focus {
         min-height: 100vh;
         background-size: cover;
         background-position: bottom;
+    }
+    .structure {
+        padding: 125px 0 180px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .process-wrap {
+        width: 24%;
+    }
+    .drug-wrap {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .application-wrap {
+        margin: 0 auto;
+    }
+    .process-wrap {
+        width: 40%;
+        margin: 0 10px 45px;
+    }
+    .process-bl {
+        flex-wrap: wrap;
+    }
+    .img-bottom {
+        bottom: -30px!important;
+    }
+    .structure {
+        background: url(../img/bg3-pp.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding: 70px 0 100px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .process-wrap {
+        width: 41%;
+        margin: 0 10px 50px;
+    }
+    .drug-wrap h5 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    .drug-wrap p {
+        font-size: 16px;
+        line-height: 15px;
+    }
+    .decision-wrap {
+        width: 245px;
+    }
+    .process-bl {
+        margin-bottom: 45px;
+    }
+    .img-bottom {
+        bottom: -25px!important;
+    }
+    .obesity-head h5 {
+        padding: 15px 15px;
+    }
+    .img-block {
+        height: 115px!important;
+    }
+    .structure {
+        background: url(../img/bg3-mob.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .structure {
+        position: relative;
+        padding: 70px 0 195px;
+    }
+    .product-gb {
+        z-index: 20;
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        bottom: 0;
+        right: 25%;
+        display: block;
+        background-image: url("../img/prod-mob.png");
+        background-repeat: no-repeat;
+    }
+    .water-bg {
+        z-index: 10;
+        position: absolute;
+        width: 100%;
+        height: 330px;
+        bottom: 0;
+        display: block;
+        background-image: url("../img/water.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .water-bg-bl {
+        z-index: 15;
+        width: 100%;
+        height: 224px;
+        bottom: 0;
+        display: block;
+        background-size: contain;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .structure {
+        padding: 50px 0 195px;
+    }
+    .product-gb {
+        width: 200px;
+        height: 200px;
+        right: -3%;
+    }
+    .water-bg {
+        width: 100%;
+        height: 245px;
+    }
+    .str-img img {
+        width: 55px;
+    }
+    .str-info p span, .str-info-m p span {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .str-info p, .str-info-m p {
+        margin-bottom: 0;
+    }
+    .structure-headline h3 {
+        font-size: 30px;
+        line-height: 27px;
+    }
+    .str-info {
+        margin-left: 25px;
+    }
+    .process-wrap {
+        width: 44%;
+        margin: 0 5px 40px;
+    }
+    .process-img img {
+        height: 75px;
+    }
+    .process-head h5, .obesity-head h5 {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .process-info p, .obesity-info p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .process-content {
+        padding: 10px;
+    }
+    .decision-wrap {
+        width: 200px;
+    }
+    .img-block {
+        height: 100px!important;
+    }
+    .obesity-head h5 {
+        padding: 15px 15px!important;
+    }
+    .application-bl {
+        margin: 0 auto;
+        width: 200px;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .app-arrows {
+        bottom: -47px;
+        right: 5px;
+    }
+    .app-arrows img {
+        width: 45px;
+    }
+    .app-arrows-s {
+        bottom: -40px;
+        left: -70px;
+    }
+    .app-arrows-s img {
+        width: 55px;
+    }
+    .water-bg-bl {
+        height: 185px;
+    }
+    .app-content p {
+        margin-left: 25px;
+    }
+    .app-content p {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .num-bl img {
+        width: 12px;
+        height: 30px;
+    }
+    .app-c-fest {
+        width: 120px;
+    }
+    .app-c-fest-t {
+        width: 100px;
+    }
+    .application-wrap {
+        float: none;
+        display: block;
+        margin: 0 auto 60px;
+    }
+    .headline-bl h2 {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .process-wrap {
+        width: 47%;
+        margin: 0 0 40px;
+    }
+    .process-img img {
+        width: 95%;
+        /* display: block; */
+        height: 75px;
+    }
+    .process-head h5, .obesity-head h5 {
+        font-size: 13px!important;
+        line-height: 16px!important;
+    }
+    .process-info p, .obesity-info p {
+        font-size: 12px!important;
+        line-height: 16px!important;
+    }
+    .process-info p {
+        margin-bottom: 45px;
+    }
+    .process-info {
+        margin-bottom: 0;
+    }
+    .headline-bl h2 {
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .decision-wrap {
+        width: 165px;
+    }
+    .drug-wrap h5 {
+        font-size: 19px;
+        line-height: 21px;
+    }
+    .drug-wrap p {
+        font-size: 13px;
+        line-height: 15px;
+    }
+    .obesity-head h5 {
+        padding: 10px 15px!important;
+    }
+    .str-content-body {
+        align-items: start;
+    }
+    .str-info p span, .str-info-m p span {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .application-wrap {
+        margin: 0 auto 100px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .img-block {
+        height: 85px!important;
+    }
+    .water-bg {
+        height: 175px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .process-head h5 {
+        font-size: 11px!important;
+        line-height: 14px!important;
+    }
+    .process-info p {
+        font-size: 10px!important;
+        line-height: 14px!important;
+    }
+    .decision-wrap {
+        width: 138px;
+    }
+    .drug-wrap h5 {
+        font-size: 17px;
+        line-height: 19px;
+    }
+    .drug-wrap p {
+        font-size: 11px;
+        line-height: 13px;
     }
 }
