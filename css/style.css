@@ -537,42 +537,48 @@ a:hover, a:focus {
 .water-bg {
     display: none;
 }
-.list2{
+
+.list2 {
     position: absolute;
     top: 45%;
 }
-.list1{
+
+.list1 {
     position: absolute;
     right: 3%;
     top: 55%;
 }
 
-
 /**4 comparisons**/
+
 .structure {
     position: relative;
 }
-.list3{
+
+.list3 {
     position: absolute;
     top: -65px;
     left: 15%;
 }
-.list4{
+
+.list4 {
     position: absolute;
     top: -100px;
     right: 21%;
 }
-.list5{
+
+.list5 {
     position: absolute;
     bottom: -35px;
 }
-.list6{
+
+.list6 {
     position: absolute;
     bottom: -100px;
     right: 53%;
-
 }
-.list7{
+
+.list7 {
     position: absolute;
     bottom: -130px;
     right: 0;
@@ -1089,9 +1095,7 @@ a:hover, a:focus {
 }
 
 @media (max-width: 991px) {
-    .list6,
-    .list4,
-    .list1{
+    .list6, .list4, .list1 {
         display: none;
     }
     .headline-bl h2 {
@@ -1136,7 +1140,7 @@ a:hover, a:focus {
     .doctor-opinions .container>p {
         width: 545px;
     }
-    .comment .order-product>a {
+    .order-product>a {
         color: #FBFBFB;
         border: 0;
         padding: 25px 80px;
@@ -1266,10 +1270,7 @@ a:hover, a:focus {
 }
 
 @media (max-width: 767px) {
-    .list7,
-    .list5,
-    .list3,
-    .list2{
+    .list7, .list5, .list3, .list2 {
         display: none;
     }
     .usefulness-list_one, .usefulness-list_two, .usefulness-list_three, .usefulness-list_four {
@@ -1324,7 +1325,10 @@ a:hover, a:focus {
         right: 165px;
     }
     .comment-title {
-        padding-top: 50px;
+        padding-top: 30px;
+        font-size: 24px;
+        line-height: 29px;
+        margin-bottom: 20px;
     }
     .comment .order-product {
         margin-bottom: 35px;
@@ -1672,6 +1676,7 @@ a:hover, a:focus {
         bottom: 0;
         display: block;
         background-size: contain;
+        background-position: bottom;
     }
 }
 
@@ -1839,7 +1844,7 @@ a:hover, a:focus {
         line-height: 20px;
     }
     .application-wrap {
-        margin: 0 auto 100px 30px;
+        margin: 0 auto 60px 30px;
     }
 }
 
