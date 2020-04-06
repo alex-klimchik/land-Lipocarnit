@@ -320,6 +320,7 @@ a:hover, a:focus {
 
 .body-process, .obesity {
     margin: 120px 0;
+    position: relative;
 }
 
 .headline-bl h2 {
@@ -536,8 +537,46 @@ a:hover, a:focus {
 .water-bg {
     display: none;
 }
+.list2{
+    position: absolute;
+    top: 45%;
+}
+.list1{
+    position: absolute;
+    right: 3%;
+    top: 55%;
+}
+
 
 /**4 comparisons**/
+.structure {
+    position: relative;
+}
+.list3{
+    position: absolute;
+    top: -65px;
+    left: 15%;
+}
+.list4{
+    position: absolute;
+    top: -100px;
+    right: 21%;
+}
+.list5{
+    position: absolute;
+    bottom: -35px;
+}
+.list6{
+    position: absolute;
+    bottom: -100px;
+    right: 53%;
+
+}
+.list7{
+    position: absolute;
+    bottom: -130px;
+    right: 0;
+}
 
 .comparisons {
     margin-bottom: 120px;
@@ -713,6 +752,7 @@ a:hover, a:focus {
 /**8 mode-of-application**/
 
 .mode-of-application {
+    padding: 70px 0 20px;
     position: relative;
 }
 
@@ -1049,6 +1089,15 @@ a:hover, a:focus {
 }
 
 @media (max-width: 991px) {
+    .list6,
+    .list4,
+    .list1{
+        display: none;
+    }
+    .headline-bl h2 {
+        font-size: 36px;
+        line-height: 40px;
+    }
     .comparisons-box-title {
         font-size: 32px;
         max-width: 295px;
@@ -1217,6 +1266,12 @@ a:hover, a:focus {
 }
 
 @media (max-width: 767px) {
+    .list7,
+    .list5,
+    .list3,
+    .list2{
+        display: none;
+    }
     .usefulness-list_one, .usefulness-list_two, .usefulness-list_three, .usefulness-list_four {
         display: none;
     }
@@ -1613,7 +1668,7 @@ a:hover, a:focus {
     .water-bg-bl {
         z-index: 15;
         width: 100%;
-        height: 224px;
+        height: 250px;
         bottom: 0;
         display: block;
         background-size: contain;
@@ -1627,7 +1682,7 @@ a:hover, a:focus {
     .product-gb {
         width: 200px;
         height: 200px;
-        right: -3%;
+        right: 0;
     }
     .water-bg {
         width: 100%;
@@ -1728,6 +1783,12 @@ a:hover, a:focus {
 }
 
 @media screen and (max-width: 420px) {
+    .body-process, .obesity {
+        margin: 40px 0;
+    }
+    .mode-of-application {
+        padding: 40px 0 20px;
+    }
     .process-wrap {
         width: 47%;
         margin: 0 0 40px;
@@ -1778,7 +1839,7 @@ a:hover, a:focus {
         line-height: 20px;
     }
     .application-wrap {
-        margin: 0 auto 100px;
+        margin: 0 auto 100px 30px;
     }
 }
 
